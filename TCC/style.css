@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body {
+    background-image: url(fundo.webp);
+    background-size: cover;
+    font-family: 'Varela Round', Courier, monospace;
+}
+h1,
+h2 {
+    padding: 3%;
+    font-weight: 800;
+    color: #171717;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgb(95, 95, 95);
+}
+
+.black {
+    color: black;
+    text-align: center;
+}
+a {
+    color: lightskyblue;
+}
+p.p1 {
+    color: black;
+    text-align: center;
+    margin: 10px 100px;
+    
+    
+    
+}
+
+/**/
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    background-color: #1f2125;
+    color: #ffff;
+    margin-bottom: 2rem;
+    border: 2px black solid;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px rgb(95, 95, 95);
+}
+.white {
+    color: #ffff;
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.card img {
+    height: 400px;
+}
+
+.card > div {
+    padding: 2rem;
+}
+
+.card:nth-child(even) img {
+    order: 2;
+}
+
+.esquerda {
+    border-radius: 16px 0px 0px 16px; 
+}
+
+.direita {
+    border-radius: 0px 16px 16px 0px;
+}
+
+img {
+    width: 100%;
+}
+
+/*Grid equipe*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 13px;
+    grid-row-gap: 0px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0fr 0.5fr;
+    grid-column-gap: 13px;
+    grid-row-gap: 0px;
+}
+
+.fotos {
+    border: 2px black solid;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 10%;
+}
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+.div4 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+.div5 {
+    grid-area: 2 / 1 / 3 / 2;
+    border: black 2px solid;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgba(169, 169, 169, 0.493);
+}
+.div6 {
+    grid-area: 2 / 2 / 3 / 3;
+    border: black 2px solid;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgba(169, 169, 169, 0.493);
+}
+.div7 {
+    grid-area: 2 / 3 / 3 / 4;
+    border: black 2px solid;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgba(169, 169, 169, 0.493);
+}
+.div8 {
+    grid-area: 2 / 4 / 3 / 5;
+    border: black 2px solid;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgba(169, 169, 169, 0.493);
+}
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.pfooter {
+    margin: 0;
+    color: white;
+}
+
+.clique {
+    color: aqua;
+}
+
+.img-quemsomos {
+    max-width:90%;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px rgb(95, 95, 95);
+}
+
+.parent {
+    margin: 10%;
+}
+
+.carousel {
+    margin: 10px 95px;
+    border: 4px black solid;
+    border-radius: 5px;
+}
+
+.img9{
+    width: 27%;
+    margin-left: 5%;
+    margin-right: 75%;
+    border: 3px black solid;
+    border-radius: 5px;
+    
+ }
+ 
+
+
+ p.p2{
+    color: black;
+    text-align: right;
+}
+
+
+.cotainer .p2{
+    width: 300px;
+    float: left;
+    margin-right: 0px;
+  }
+

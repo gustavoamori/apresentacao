@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-image: url(fundo.webp);
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+p {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    background-color: black;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.imagem {
+    text-align:center;
+}
+

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-image: url(fundo.webp);
+    font-family: 'Varela Round', Courier, monospace;
+}
+
+.white {
+    color: white;
+}
+
+.parte1{
+    max-width: 1110px;
+    margin: auto;
+    overflow: auto;
+    padding: 0.2rem;
+    }
+    
+    h2{
+    text-align: center;
+    text-shadow: 10px 10px 10px rgb(95, 95, 95);
+    }
+
+    .parte2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       gap: 1rem;
+       margin-bottom: 1rem;
+       border: 0.2rem solid ;
+       border-radius: 20px;
+       background: #1f1f1f;
+       color: #fff;
+       box-shadow: 20px 20px 10px rgb(95, 95, 95);
+    }
+    
+    .parte4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+       gap: 1rem;
+       margin-bottom: 1rem;
+       border: 20px solid ;
+       border-radius: 30px;
+       background: #fff;
+       color: #1f1f1f;
+       box-shadow: 10px 10px 10px rgb(95, 95, 95);
+    }
+    
+.parte5{
+text-align: center;
+background: #1f1f1f;
+color: #fff;
+}
+
+.parte6{
+background: black;
+
+}
+.container2{
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    
+    }
+.parte6{
+text-align: center;
+background: white;
+color: black;
+}
+
+
+
+    #my-form {
+        display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: solid 3px black;
+    background: white;
+    color: black;
+    }
+
+#my-form label{
+display: block;
+}
+
+#my-form input[type='text']{
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 5px;
+border:1px solid black;
+}
+
+#my-form select{
+width: 20px;
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 5px;
+border:1px solid #ccc;
+}
+.btn{
+color: white;
+border: 2px solid black;
+background-color: black;
+}
+.bg-dark{
+background: #333;
+color: white;
+}
+
+.error{
+font-size: 0.8rem;
+background: #fff;
+
+}
+
+
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 1rem 2rem;
+    }
+
+.form-control-mb-3{
+display: grid;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+padding: 25px;
+
+}
+
+.form-control-5{
+display: grid;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+}
+
+.form-control-mr-2{
+border:2px solid black;
+}
+
+.list-group{
+border: 2px solid black;
+}
+
+.btn-btn-dark{
+margin-left: 60px;
+}
+
+.parte10{
+display: grid;
+border: 0.2rem solid;
+text-align: center;
+background: #1f1f1f;
+color: #fff;
+border-radius: 60px;
+box-shadow: 10px 10px 10px rgb(95, 95, 95);
+}
+
+
+
+.btg{
+    display: inline-block;
+    background: #fff;
+    color: #1f1f1f;
+    padding: 0.3em;
+ cursor: pointer;
+}
+
+.parte13{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1rem;
+   border: 0.2rem solid ;
+   border-radius: 20px;
+   background: #1f1f1f;
+   color: #fff;
+   box-shadow: 20px 20px 10px rgb(95, 95, 95);
+}
+
+.parte14{
+text-align: center;
+}
+
+.parte15{
+text-align: left;
+}

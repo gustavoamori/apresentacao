@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="shortcut icon" href="Fotos Tcc/icon-login.ico" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <title>Quem somos?</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+        <a class="navbar-brand" href="#"><img src="logo.png" width="63,375" height="64,125" alt="Img"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="quem somos.html">Quem somos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mais Asuntos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Produtos e serviços.html">Produtos e serviços</a>
+                        <a class="dropdown-item" href="Contato.html">Contato</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                                
+            </ul>
+            <div>
+                <ul class="navbar-nav mr-auto"  >
+                    <li class="form-inline" id="login">
+                        <a class="nav-link btn btn-outline-secondary my-2 my-sm-0 text-white" href="Login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <!---Coloque o assunto daqui pra baixo jumentos-->
+    
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça o Login<br> E conecte-se conosco!</h1>
+            <img src="stop1.svg" class="left-login-image" alt="Stop animation">
+        </div>
+        <form action="">
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>LOGIN</h1>
+                    <div class="textfield">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" placeholder="Usuário" id="usuario">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" placeholder="Senha" id="senha">
+                    </div>
+                    <input type="submit" class="btn-login" onclick="logar(); return false">
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+    <script src="login.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
